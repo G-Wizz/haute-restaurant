@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(135deg, rgba(2, 2, 2, 0.2) 0, #fff 100%),
+    url(../img/beverage-drink-red-wine-94437.jpg) no-repeat center center/cover;
+}
+
+/* NAVBAR */
+#navbar {
+  width: 100%;
+  padding: 10px 0;
+  position: fixed;
+  background: #666;
+  top: 0;
+  opacity: 0.8;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#navbar ul li a {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 25px;
+}
+
+#navbar ul li a:hover {
+  /* color: #333;
+  text-shadow: 0 0 0.5rem #000; */
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+}
+
+/* MENU NAV */
+#menus-nav {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 39px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#navbar #title {
+  position: absolute;
+  font-family: "Italiana", serif;
+  font-weight: bold;
+  list-style: none;
+  color: #fff;
+  left: 20px;
+  top: 10px;
+}
+
+#menus-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+#menus-nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+#menus-nav ul li {
+  padding: 0.5rem 1rem;
+  width: 150px;
+  text-align: center;
+  /* border: 1px solid #333; */
+}
+
+#menus-nav ul li:hover {
+  background: #666;
+  color: #fff;
+}
+
+.active {
+  border-bottom: 1px solid #333;
+}
+
+/* MENU */
+#menu-page {
+  margin: 39px 0;
+}
+#menu-page h1 {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#menu-page #dishes {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 50px;
+  margin-bottom: 40px;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+#menu-page #dishes h2 {
+  font-family: "Italiana", serif;
+  padding: 1rem 0;
+}
+#menu-page #dishes p {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* FOOTER */
+#footer {
+  height: 150px;
+  background: #333;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .social {
+  /* margin-top: 40px; */
+}
+
+#footer .social i {
+  padding: 0 10px;
+}
+
+#footer .link {
+  padding-top: 20px;
+}
+
+#footer .social i {
+  padding: 0 10px;
+  cursor: pointer;
+}

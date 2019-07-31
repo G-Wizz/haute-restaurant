@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Haute</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 812px)"
+      href="./styles/mobile/mobile.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      media="screen and (max-width: 1100px)"
+      href="./styles/widescreen/widescreen.css"
+    /> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Italiana|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body>
+
+      <div class="burger-menu">
+          <i class="fas fa-bars fa-2x"></i>
+          <div class='mini-menu'>
+              <ul>
+                  <li><a href="#main-img">Home</a></li>
+                  <li><a href="./menu.html">Menu</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+          </div>
+      </div>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+    
+      <ul>
+        <li><a href="#main-img">Home</a></li>
+        <li><a href="./menu.html">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- MAIN HEADER -->
+    <div class="main-container">
+
+      <section id="main-img">
+        <div class="text-container">
+          <div class="main-text">
+            <h1>HAUTE</h1>
+            <h2><a href='./menu.html'>View Menu</a></h2>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="about">
+      <div class="about-container">
+        <h2 id='about-us-title'>ABOUT US</h2>
+        <div class="about-info">
+
+          <img id='app-img' src="./img/appetizers-chef-cuisine-1267320.jpg" alt="appetizers">
+          <p id='about-us-text'>
+            Haute is one of the country’s most celebrated restaurants; the creation
+            of leading American restaurant group, Escoffier Group, and Executive Chef
+            Peter Bordeux.</br></br> 
+            The reimagination of Haute has welcomed an organic space
+            reflective of Peter Bordeux’s nature inspired cuisine. The interplay
+            of textures and colour bring new life and a vibrance that embraces the
+            restaurant’s place in the dress circle of Seattle Harbour. An ode to
+            the Northwestern America landscape, from the vast ocean floor, to the cracked
+            bark of a paperbark tree, every detail from the ground up has been
+            thoughtfully considered.</br> </br>
+            A new era for Haute, gives an opportunity to
+            fulfil even greater aspirations in delivering a most personal and
+            immersive dining experience.
+          </p>
+        </div>
+
+        <h2 id='chef-title'>OUR CHEF</h2>
+        <div class="chef-info">
+
+          
+          <p id='chef-text'>
+            Peter Bordeux is the Executive Chef at two of America's most exciting and dynamic restaurants; Novelle at the Space Needle and Haute Restaurant across the harbour in Seattle. Peter is a 50-year-old American, born and bred in New Jersey. He was inspired to cook at a young age and started his apprenticeship at 16, then spent his twenties working in kitchens overseas and in France, developing his own style.</br></br>
+
+Peter is now one of the most awarded chefs in America taking the helm of the kitchen at Quay in 2001. Haute has been awarded Three Chefs Hats for an unprecedented 16 consecutive years and named Restaurant of the Year six times in The Seattle Morning Herald Good Food Guide. Haute has also been awarded three stars in the national American Gourmet Traveller Restaurant Guide for 16 years. Haute was listed for five years on the World’s 50 Best Restaurant list and held the title of Best Restaurant in America for three of those years.</br></br>
+
+Peter describes his cuisine as food inspired by nature and as a passionate gardener himself, he was one of the first chefs in America to embrace heirloom varieties of vegetables and continues to work in partnership with small and artesian producers who cultivate bespoke produce exclusively for both Haute and Novelle.
+          </p>
+
+          <img id='chef-img' src="./img/chef-fine-looking-man-2494659.jpg" alt="chef">
+        </div>
+
+      </div>
+      
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact-container">
+
+        <h2 id="contact-us">Contact Us</h2>
+        <div class='contact-info'>
+
+          <form class='form' type='submit'>
+            <label for="name">Name</label>
+            <input type="text" name="name" id='name'>
+            <label for="email">Email</label>
+            <input type="email" name="email" id='email'>
+            <label for="message">Message</label>
+            <textarea type="text" name="message" id='message' rows='10'></textarea>
+            <div id='submit'>
+
+              <input type="submit" name='Submit' >
+            </div>
+          </form>
+  
+          <div class="address">
+            <p id='phone'>(523) 234 - 9898</p>
+            <p>9393 West Harbour St</p>
+            <p>Seattle, WA 12345</p>
+            <div id='reservations'>
+
+              <p>For reservations call:</p>
+              <p>(523) 234 - 9899</p>
+            </div>
+          </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer id='footer'>
+      <div class="social">
+          <i class="fab fa-facebook-square fa-2x"></i>
+          <i class="fab fa-twitter-square fa-2x"></i>
+          <i class="fab fa-instagram fa-2x"></i>
+          <i class="fas fa-envelope-square fa-2x"></i>
+      </div>
+        <p class='link'>hauterestaurant.com &copy; 2019</p>
+    
+    </footer>
+
+
+
+    <script src="./scripts/zenscroll-min.js"></script>
+    <script src='./scripts/utils.js'></script>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+/* BURGER MENU */
+.burger-menu i {
+  display: block;
+  /* position: absolute;
+  top: 4px;
+  left: 1rem; */
+}
+
+.burger-menu i:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+.toggle-active {
+  display: block;
+}
+
+/* NAVBAR */
+#navbar {
+  display: none;
+}
+
+.mini-menu ul li:hover {
+  background: #fff;
+  color: #333;
+}
+
+.mini-menu ul li a:hover {
+  color: #333;
+}
+
+/* ABOUT */
+
+#about {
+  /* margin-top: 450px; */
+}
+
+.main-text {
+  top: 180px;
+}
+
+#about .about-container {
+  margin: 0 10px;
+}
+
+#about .about-container .about-info {
+  flex-direction: column;
+}
+
+#about .about-container .about-info #app-img {
+  width: 100%;
+  margin: auto;
+}
+
+#about .about-container #about-us-text {
+  padding-top: 1.5rem;
+}
+
+#about .about-container .chef-info {
+  flex-direction: column-reverse;
+}
+
+#about .about-container .chef-info #chef-img {
+  width: 100%;
+  margin: auto;
+}
+
+#about .about-container #chef-text {
+  padding: 0;
+  padding-top: 1.5rem;
+  width: 90%;
+}
+
+/* CONTACT */
+#contact .contact-container {
+  margin: 0 20px;
+}
+
+#contact .contact-info {
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact .contact-info .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact .contact-container label {
+  text-align: center;
+}
+
+#contact .contact-container input,
+#contact .contact-container textarea {
+  width: 80%;
+  margin: auto;
+}
+
+#contact #submit {
+  padding-top: 0.5rem;
+  /* width: 100px;
+  margin: auto;
+  margin-left: 300px; */
+  /* width: 100%;
+  margin: 0; */
+}
+
+#contact #submit input {
+  width: 100px;
+  margin: auto;
+}
+
+.contact-info .address {
+  padding-top: 1.5rem;
+}

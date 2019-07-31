@@ -1,0 +1,316 @@
+/* font-family: 'Italiana', serif;
+font-family: 'Montserrat', sans-serif; */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* UTILITIES */
+
+body {
+  /* width: 100vw; */
+  /* height: 500px; */
+}
+
+/* BURGER MENU */
+.burger-menu i {
+  display: none;
+  position: absolute;
+  top: 8px;
+  left: 1rem;
+  color: #fff;
+}
+
+.mini-menu {
+  display: none;
+  position: absolute;
+  background: #444;
+  top: 45px;
+  width: 100%;
+  /* margin-top: 45px; */
+  opacity: 0.8;
+}
+
+.mini-menu ul {
+  text-align: center;
+}
+
+.mini-menu ul li {
+  border-bottom: 1px solid #666;
+  padding: 4px 0;
+}
+
+.mini-menu ul li a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* NAVBAR */
+#navbar {
+  width: 100%;
+  padding: 10px 0;
+  position: fixed;
+  background: #666;
+  top: 0;
+  opacity: 0.8;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#navbar ul li a {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 25px;
+}
+
+#navbar ul li a:hover {
+  /* color: #333;
+  text-shadow: 0 0 0.5rem #000; */
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+}
+
+/* MAIN IMAGE SECTION */
+/* .main-container {
+  position: relative;
+} */
+
+#main-img {
+  z-index: -10;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0, #333 100%),
+    url(../img/appetizer-brunch-close-up-1095550.jpg) no-repeat center center/
+      cover;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-text {
+  position: absolute;
+  text-align: center;
+  top: 220px;
+}
+
+#main-img .main-text h1 {
+  color: #fff;
+  font-family: "Italiana", serif;
+  font-weight: 200;
+  font-size: 100px;
+  letter-spacing: 5px;
+  text-shadow: 0 0 1rem #000;
+}
+
+#main-img .main-text h2 a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  letter-spacing: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 160px;
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  text-shadow: 0 0 1rem #000;
+}
+
+#main-img .main-text h2 a:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #333;
+  box-shadow: 0 0 1rem #000;
+}
+
+/* ABOUT US */
+
+#about {
+  margin-top: 600px;
+  margin-bottom: 40px;
+}
+
+#about .about-container {
+  margin: 0 100px;
+  padding-top: 50px;
+}
+
+#about .about-container h2 {
+  font-family: "Italiana", serif;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+#about .about-container .about-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #333;
+  padding-bottom: 40px;
+}
+
+#about .about-container .about-info #app-img {
+  width: 500px;
+  height: 400px;
+}
+
+#about .about-container #about-us-text {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding-left: 20px;
+  align-self: center;
+}
+
+#about .about-container #chef-title {
+  padding-top: 40px;
+}
+
+#about .about-container .chef-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  /* border-bottom: 1px solid #333; */
+  padding-bottom: 40px;
+}
+
+#about .about-container .chef-info #chef-img {
+  max-width: 400px;
+  height: 600px;
+}
+
+#about .about-container #chef-text {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  /* padding-right: 80px; */
+  width: 48%;
+  align-self: center;
+}
+
+/* CONTACT */
+#contact {
+  width: 100%;
+  padding-bottom: 40px;
+  background: #aaa;
+}
+
+#contact h2 {
+  font-family: "Italiana", serif;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+
+#contact .contact-container {
+  margin: 0 100px;
+}
+
+#contact .contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.form {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact .contact-container label {
+  display: block;
+  padding: 5px 0;
+}
+
+#contact .contact-container textarea {
+  padding: 0 1rem;
+  padding-top: 0.5rem;
+  width: 80%;
+}
+
+#contact input {
+  /* border-radius: 5px; */
+  padding: 0 1rem;
+  height: 30px;
+  width: 80%;
+}
+
+#contact #submit {
+  padding-top: 0.5rem;
+  width: 100px;
+  align-self: center;
+  /* margin-left: 130px; */
+}
+
+#contact #submit input {
+  border: 1px solid #333;
+}
+
+#contact #submit input:hover {
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-info .address {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: center;
+  width: 100%;
+  align-self: center;
+}
+
+.contact-info #reservations {
+  padding-top: 20px;
+  font-size: 1rem;
+}
+
+.contact-info .address #phone {
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+#footer {
+  height: 150px;
+  background: #333;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .social {
+  /* margin-top: 40px; */
+}
+
+#footer .social i {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+#footer .link {
+  padding-top: 20px;
+}
